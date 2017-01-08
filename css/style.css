@@ -75,7 +75,7 @@ h2 {
 	color: white;
 	background: #02b3e4;
 	border-left: 50px solid #428bca;
-	margin-left: -50px;
+	margin-left: -20px;
 	padding-left: 0;
 	font-size: 2.2;
 	line-height: 1.7;
@@ -100,7 +100,7 @@ h3 {
 	color: white;
 	background: #26c6da;
 	border-left: 50px solid #1A95A5;
-	margin-left: -20px;
+	margin-left: 0px;
 	padding: 0px;
 	padding-left: 0;
 	font-size: 1.8;
@@ -306,10 +306,14 @@ div.post-thumbnail {
 	margin-right: 0px;
 }
 
-
-.ID_Photo {
-	max-width: 15%;
+.photocontainer {
 	float: right;
+	height: 200px;
+}
+
+.idphoto {
+	max-height: 100%;
+	max-width: 100%;
 }
 
 /* FONTS */
